@@ -1,11 +1,7 @@
-import React from "react";
-import { Text } from "react-native";
-export default function TextTitle(props: any) {
-  const { title = "" } = props;
+import Colors from "./colors";
+import CommonStyle from "./commonStyle";
+import Fonts from "./fonts";
+import Images from "./images";
+import Metrics from "./metrics";
 
-  return (
-    <Text style={props.textStyle} numberOfLines={1}>
-      {title}
-    </Text>
-  );
-}
+export { Colors, Metrics, Fonts, CommonStyle, Images };
